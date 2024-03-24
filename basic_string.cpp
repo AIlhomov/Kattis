@@ -19,9 +19,9 @@ int main(){
     while (getline(myFile, line)){
         if (line.find(searchString) != string::npos) {
             cout << "Found: " << line << endl;
-            break; // Break the loop if the string is found
+            break; 
         }
-        allLines += line + " "; // Append the current line to the allLines string with a space
+        allLines += line + " "; 
     }
 
     string search;

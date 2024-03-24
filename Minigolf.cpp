@@ -1,5 +1,5 @@
 #include <iostream>
-#include <vector> // Add missing include
+#include <vector> 
 
 using namespace std;
 
@@ -12,7 +12,7 @@ int main(){
 
 	cin >> n;
 
-	vector<int> a(n); // Replace int a[n] with vector<int> a(n)
+	vector<int> a(n); 
 
 	for(int i=0; i<n; i++){
 		cin >> a[i];
