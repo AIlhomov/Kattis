@@ -1,0 +1,4 @@
+N,k=map(int,input().split());A=[[*map(int,input().split())]for _ in' '*N]
+def m(A,B):return[[sum(A[i][k]*B[k][j]for k in range(N))for j in range(N)]for i in range(N)]
+def p(A,k):return k<1and[[1-(i!=j)for j in range(N)]for i in range(N)]or k<2and A or m(p(A,k//2),p(A,k//2))if k%2<1else m(A,m(p(A,k//2),p(A,k//2)))
+[print(*r)for r in p(A,k)]

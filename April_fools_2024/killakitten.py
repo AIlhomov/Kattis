@@ -1,0 +1,1 @@
+print("Kill one kitten")
