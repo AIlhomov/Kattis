@@ -1,3 +1,5 @@
+# O(nlogn) solution
+# Barely passed with 0.88 seconds (time limit: 1 second)
 n = int(input())
 
 count = [0] * (n + 1)
