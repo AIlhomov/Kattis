@@ -1,3 +1,4 @@
+# 500 points at Kattis
 def multigram(s):
     for i in range(1, len(s)):
         if len(s) % i == 0:
