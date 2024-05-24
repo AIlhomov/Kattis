@@ -1,1 +1,0 @@
-print("Kill one kitten")
