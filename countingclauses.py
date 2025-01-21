@@ -1,0 +1,1 @@
+m="satisfactory";print(m if int(input().split()[0])>=8 else "un"+m)
