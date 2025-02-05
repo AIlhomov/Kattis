@@ -1,9 +1,2 @@
-import math
-
-l, r = map(int, input().split())
-
-# Check if the round peg fits into the square hole
-if r * math.sqrt(2) <= l:
-    print("nope")
-else:
-    print("fits")
+a,b=map(int,input().split())
+print('nope'if b*2**.5<=a else'fits')
